@@ -1,0 +1,146 @@
+/* Menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropbtn i {
+    
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 11px 7px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+    
+  }
+
+  .menu li a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+   
+    margin-left: 45px;
+    color: #ddd;
+    
+  }
+
+  .menu li::after {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 3px;
+    margin-left: 35%;
+    top: 100%;
+    left: 0;
+    background: linear-gradient(90deg, rgba(27,26,26,1) 48%, rgba(235,0,98,1) 96%);
+    transition: transform 0.4s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+
+  .menu li {
+    list-style: none;
+    position: relative;
+    display: block;
+    transition: 0.4s;
+  }
+
+  .menu li:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+  .dropbtn {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu a:hover {
+    color: #eb0062;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Barra de pesquisa */
+  .container-input {
+    position: relative;
+  }
+  
+  .input {
+    width: 150px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 9999px;
+    border: solid 1px #eb0062;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+  }
+  
+  .container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+  }
+  
+  .input:focus {
+    opacity: 1;
+    width: 250px;
+  }
+
+  .container-navbar {
+    display: flex;
+    z-index: 1;
+
+  }
+
+  .container-navbar .barraPesquisa {
+    margin-left: 35%;
+    margin-top: 2.5%;
+  }
+
+  .dropbtn #drop {
+    display: flex;
+    text-align: bottom;
+  }
+
+  /* Logo */
+  .navbar h2 {
+    margin-left: 15%;
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: Bold 700;
+    font-size: 35px;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 0,
+        "INFM" 0,
+        "SPAC" 0;
+
+    color: #C50248;
+  }
+
+  

@@ -1,0 +1,29 @@
+.tvd{
+    background-image: url(../img/tvd2.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin: 1%;
+    width: 35%;
+    height: 95%;
+}
+
+.the100{
+    background-image: url(../img/the100.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin: 1%;
+    width: 35%;
+    height: 95%;
+}
+
+.lot{
+    background-image: url(../img/lot.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin: 1%;
+    width: 35%;
+    height: 95%;
+}

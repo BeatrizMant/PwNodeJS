@@ -1,0 +1,75 @@
+/*PLL*/
+.sanfona #p1S{
+    background-image: url("../img/pll.jpg");
+    background-position: center center;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+  
+.sanfona #p1S:hover {
+    flex: 3;
+    background-image: url("../img/pll.jpg");
+    background-position: center center;
+    background-size: 100% 100% !important;
+}
+
+/*GREYS ANATOMY*/
+.sanfona #p2S{
+    background-image: url("../img/greys.jpg");
+    background-position: center center;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+  
+.sanfona #p2S:hover {
+    flex: 3;
+    background-image: url("../img/greys.jpg");
+    background-position: center center;
+    background-size: 100% 100% !important;
+}
+
+/*OUAT*/
+.sanfona #p3S{
+    background-image: url("../img/ouat.jpg");
+    background-position: center center;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+  
+.sanfona #p3S:hover {
+    flex: 3;
+    background-image: url("../img/ouat.jpg");
+    background-position: center center;
+    background-size: 100% 100% !important;
+}
+
+/*ARROW*/
+.sanfona #p4S{
+    background-image: url("../img/arrow.jpg");
+    background-position: center center;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+  
+.sanfona #p4S:hover {
+    flex: 3;
+    background-image: url("../img/arrow.jpg");
+    background-position: center center;
+    background-size: 100% 100% !important;
+}
+
+/*OBX*/
+.sanfona #p5S{
+    background-image: url("../img/obx.jpg");
+    background-position: center center;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+  
+.sanfona #p5S:hover {
+    flex: 3;
+    background-image: url("../img/obx.jpg");
+    background-position: center center;
+    background-size: 100% 100% !important;
+}
+

@@ -1,0 +1,74 @@
+/*MEU TRABALHO É UM PARTO*/
+.sanfona #p1{
+    background-image: url("../img/meuTrabParto.jpg");
+    background-position: center center;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+  
+.sanfona #p1:hover {
+    flex: 3;
+    background-image: url("../img/meuTrabParto.jpg");
+    background-position: center center;
+    background-size: 100% 100% !important;
+}
+
+/*ENOLA HOLMES*/
+.sanfona #p2{
+    background-image: url("../img/enola.jpg");
+    background-position: center center;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+  
+.sanfona #p2:hover {
+    flex: 3;
+    background-image: url("../img/enola.jpg");
+    background-position: center center;
+    background-size: 100% 100% !important;
+}
+
+/*VELOZES E FURIOSOS*/
+.sanfona #p3{
+    background-image: url("../img/velozes.jpg");
+    background-position: center center;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+  
+.sanfona #p3:hover {
+    flex: 3;
+    background-image: url("../img/velozes.jpg");
+    background-position: center center;
+    background-size: 100% 100% !important;
+}
+
+/*AS BRANQUELAS*/
+.sanfona #p4{
+    background-image: url("../img/branquelas.jpg");
+    background-position: center center;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+  
+.sanfona #p4:hover {
+    flex: 3;
+    background-image: url("../img/branquelas.jpg");
+    background-position: center center;
+    background-size: 100% 100% !important;
+}
+
+/*10 COISAS QUE EU ODEIO VOCÊ*/
+.sanfona #p5{
+    background-image: url("../img/odeioVoce.png");
+    background-position: center center;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+  
+.sanfona #p5:hover {
+    flex: 3;
+    background-image: url("../img/odeioVoce.png");
+    background-position: center center;
+    background-size: 100% 100% !important;
+}

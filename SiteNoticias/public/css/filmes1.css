@@ -1,0 +1,65 @@
+/*PARA TODOS OS GAROTOS QUE JA AMEI*/
+
+#ptogqja{
+    background-image: url("../img/GrtsAmei.jpg");
+    background-position: center center;
+    background-size: 110% 110%;
+}
+
+#ptogqja:hover{
+    background-size: 100% 100%;
+}
+
+/*VINGADORES*/
+
+#vingadores{
+    background-image: url("../img/vingadores.png");
+    background-position: center center;
+    background-size: 110% 110%;
+}
+
+#vingadores:hover{
+    background-size: 100% 100%;
+}
+
+
+/*PLANO IMPERFEITO*/
+
+#plano{
+    background-image: url("../img/planoImperfeito.jpg");
+    background-position: center center;
+    background-size: 110% 110%;
+}
+
+#plano:hover{
+    background-size: 100% 100%;
+}
+
+
+/*SR E SRA SMITH*/
+
+#smiths{
+    background-image: url("../img/smiths.jpeg");
+    background-position: center center;
+    background-size: 110% 110%;
+}
+
+#smiths:hover{
+    background-size: 100% 100%;
+}
+
+
+#menuFilmes {
+    margin-left: -300px;
+}
+
+#menuFilmes2 {
+    margin-left: 150px;
+    
+}
+
+#menuFilmes3 {
+    margin-left: 400px;
+    margin-top: 20px;
+    
+}

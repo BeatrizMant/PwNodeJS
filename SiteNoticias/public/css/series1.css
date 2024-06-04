@@ -1,0 +1,49 @@
+/*BRIDGERTON*/
+
+#bridgerton{
+    background-image: url("../img/bridgerton1.jpg");
+    background-position: center center;
+    background-size: 110% 110%;
+}
+
+#bridgerton:hover{
+    background-size: 100% 100%;
+}
+
+/*TVD*/
+
+#tvd{
+    background-image: url("../img/tvd1.jpg");
+    background-position: center center;
+    background-size: 110% 110%;
+}
+
+#tvd:hover{
+    background-size: 100% 100%;
+}
+
+
+/*TEEN WOLF*/
+
+#tw{
+    background-image: url("../img/tw1.jpg");
+    background-position: center center;
+    background-size: 110% 110%;
+}
+
+#tw:hover{
+    background-size: 100% 100%;
+}
+
+
+/*STRANGER THINGS*/
+
+#st{
+    background-image: url("../img/st1.jpg");
+    background-position: center center;
+    background-size: 110% 110%;
+}
+
+#st:hover{
+    background-size: 100% 100%;
+}
