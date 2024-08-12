@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    font-family: 'Popins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav.menu {
+    width: 60px;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #6b0ae2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu.expandir {
+    width: 300px;
+}
+
+.btn-abrir {
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.btn-abrir span {
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none; /* Tira decoração da lista*/
+}
+
+ul li.item-menu {
+    transition: .2s; /* passagem mais lenta de um para o outro*/
+    margin-left: 5.5%;
+}
+
+ul li.ativo {
+    background-color: #6b0ae2;
+}
+
+ul li.item-menu:hover {
+    background-color: #6b0ae2;
+}
+
+ul li.item-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+ul li.item-menu a .texto {
+    margin-left: 70px;
+    transition: .1s;
+    
+}
+
+nav .menu.expandir .texto {
+    margin-left: 5%;
+    
+}
+
+.texto {
+    margin-top: 4%;
+}
+
+ul li.item-menu a .icone > span {
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+#home .texto {
+    margin-top: 0;
+}
+
+.icone img {
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
