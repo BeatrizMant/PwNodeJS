@@ -1,0 +1,103 @@
+<title>Vai de Bike - Inicial</title>
+<link rel="stylesheet" href="/css/inicio.css">
+
+{{> menu}}
+
+<body>
+    <!-- Menu e slogan-->
+    <div id="inicio" class="inicio">
+
+        <div class="slogan">
+            <img src="./img/lateral (1).png" alt="">
+
+            <div class="conteudo">
+                <h1>Vai de Bike</h1>
+                <h2>  
+                    Explore sua cidade de um jeito sustentável e divertido. Com a gente, pedalar é
+                    sinônimo de liberdade!
+                </h2>
+
+                <button class="btnAlugar">Alugar agora</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <br><br><br><br><br>
+
+    <div class="comoAlugar" id="comoAlugar">
+
+    </div>
+
+    <div class="alugar" id="alugar">
+        <div class="opcoes" id="opcoes">
+            <div class="card" id="bike1">
+                <img id="imgB" src="./img/bikeBlack.png">
+
+                <div class="info">
+                    <br><br>
+                    <h2 id="nomeB">Bike Santa Cruz Superlight</h2> 
+                    <p id="tipoB"><b>Tipo: </b> Mountain Bike  </p>
+                    <p id="valorB"><b id="preco">R$ 6,00 </b>por hora</p> <br>
+                    <button id="bike1">Ver mais</button>
+                </div>
+            </div>
+
+            <div class="card" id="bike2">
+                <img id="imgB" src="./img/bikeBlack.png" alt="">
+
+                <div class="info">
+                    <br><br>
+                    <h2 id="nomeB">Bike Azul</h2>
+                    <p id="tipoB"><b>Tipo: </b> Mountain Bike  </p> 
+                    <p id="valorB"><b id="preco">R$ 6,00 </b> hora</p> <br>
+                    <button id="bike1">Ver mais</button>
+                </div>
+            </div>
+
+            
+        </div>
+        
+    </div>
+
+    <!-- Cadastro de bike -->
+    <div class="cadastroBike">
+        <h1>Cadastro de bike</h1>
+
+        <label for="Qual o nome da bike?">Qual o nome da bike?</label>
+        <input type="text" name="" id="nomeBike">
+
+        <br>
+
+        <label for="Adicione a imagem da bike:">Adicione a imagem da bike:</label>
+        <input type="file" src="" alt="" id="imgBike">
+
+        <br>
+
+        <label for="Qual o tipo da bike?">Qual o tipo da bike?</label>
+        <select name="" id="tipoBike">
+            <option value="mountain">Mountain bike</option>
+            <option value="eletrica">Bike elétrica</option>
+            <option value="speed">Bike speed</option>
+        </select>
+
+        <br>
+
+        <label for="Qual o valor por hora?">Qual o valor por hora?</label>
+        <input type="text" value="" id="valorBike">
+
+        <br><br>
+        <button type="submit" id="enviar" onclick="novoCard()">Cadastrar</button>
+
+     </div>
+     
+    <div class="beneficios" id="beneficios">
+
+    </div>
+
+    <div class="planos" id="planos">
+
+    </div>
+    
+</body>
+</html>

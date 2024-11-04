@@ -1,0 +1,66 @@
+{{> menu}}
+
+<link rel="stylesheet" href="/css/login.css">
+
+<title>Cadastro</title>
+
+<div class="container1">
+
+    <div class="img">
+
+        <button class="btnVoltar"><a href="http://localhost:4040/inicio">
+            <span class="material-symbols-outlined">
+                arrow_back
+            </span>
+            </a>
+        </button>
+        <br><br><br><br>
+        <button class="btnDesativado"><a href="http://localhost:4040/login"><b>LOGIN</b></a></button>
+        <button class="btnAtivado"><b>CRIAR CONTA</b></button>
+        <br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+
+    <div class="info">
+        <h1 class="tituloInfo">Seja Bem Vindo!</h1>
+        <h3>Complete com seus dados:</h3>
+
+        <form action="/teste" class="cadastro">
+
+            <label for="user">Nome de usuário: </label>
+            <input type="text" name="user">
+
+            <br><br>
+
+            <label for="cpf">CPF: </label>
+            <input type="text" name="cpf">
+
+            <br><br>
+
+            <label for="endereco">Endereço: </label>
+            <input type="text" name="endereco">
+
+            <br><br>
+
+            <label for="email">Email: </label>
+            <input type="text" name="email">
+
+            <br><br>
+
+            <label for="telefone">Telefone: </label>
+            <input type="text" name="telefone">
+
+            <br><br>
+
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha">
+            <br>
+            <span>(Sua senha deve conter 4 dígitos )</span>
+
+            <br><br>
+
+            <button type="submit" class="btnEntrar">Entrar</button>
+        </form>
+    </div>
+
+</div>
