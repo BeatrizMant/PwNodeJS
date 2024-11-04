@@ -1,0 +1,35 @@
+
+.slogan {
+   display: flex;
+   align-items: center; 
+   z-index: 0;
+   margin-top: 50px ;
+}
+
+
+h1 {
+    color: #F6C000;
+    border-color: #996500;
+    font-size: 120px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    margin-left: 8%;
+    margin-top: -10%;  
+}
+
+.conteudo {
+    margin-left: 4%;
+    text-align: center;
+}
+
+.btnAlugar {
+    border-radius: 20px;
+    background-color: #F6C000;
+    border-color: #F6C000;
+    color: #fff;
+    font-family: fantasy;
+    font-size: 26px;
+    padding: 1.5%;
+}

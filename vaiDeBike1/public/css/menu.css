@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(19, 19, 19);
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 2%;
+    
+}
+
+
+#menu a:hover {
+    color: #ffda07;
+}
+
+
+.icons, navbar{
+    display: flex;
+    margin-left: 2%;
+    font-size: 20px;
+    z-index: 1;
+    margin-top: 2%;
+    width: 92%;
+   
+}
+
+
+
+/* Cards */
+.card {
+    border-radius: 20px;
+    background-color: #fff2a7;
+    width: 25%;
+    height: 450px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #605100;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+.card info {
+    display: flex;
+}
+
+.card button {
+    border-radius: 20px;
+    background-color: #F6C000;
+    border-color: #F6C000;
+    color: #fff;
+    font-family: fantasy;
+    font-size: 26px;
+    padding: 1.5%;
+}
+
+.cadastroBike {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    height: 400px;
+    line-height: 40px;
+    border-radius: 20px;
+    background-color: #fff2a7;
+    color: #605100;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+button {
+    border-radius: 20px;
+    background-color: #F6C000;
+    border-color: #F6C000;
+    color: #fff;
+    font-family: fantasy;
+    font-size: 26px;
+    padding: 1.5%;
+}
