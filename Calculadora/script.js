@@ -1,29 +1,3 @@
-// const url = "http://localhost:5000/"
-// const resp = await fetch(url) 
-// const retorno = resp.json()
-// console.log(retorno)
-
-
-// const options = {
-//     headers: {
-//         'Accept': 'application/json',
-//         'Content-Type': 'application/json'
-//     },
-
-//     method: "POST",
-//     body: JSON.stringify({a: 1, b: 2})
-// }
-
-
-
-// const url = "http://localhost:5000/";
-// fetch(url)
-//     .then(resp => resp.json())
-//     .then(data => console.log(data))
-//     .catch(err => console.error("Erro ao conectar:", err));
-
-
-
 // calculadora
 
 let conta = document.getElementById("conta");
